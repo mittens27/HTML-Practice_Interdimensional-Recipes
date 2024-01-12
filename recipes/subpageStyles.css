@@ -1,0 +1,25 @@
+* {
+    background-color: rgb(70, 52, 104);
+}
+
+a {
+    color: rgb(211, 232, 250);
+    font-size: 24px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(168, 248, 148);
+    font-size: 24.5px;
+}
+
+h1,
+h3 {
+    font-family: "Lucida Console", monospace;
+    color: rgb(211, 232, 250);
+}
+
+p,
+li {
+    color: rgb(237, 215, 250);
+}
