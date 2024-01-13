@@ -16,10 +16,14 @@ a:hover {
 h1,
 h3 {
     font-family: "Lucida Console", monospace;
-    color: rgb(211, 232, 250);
 }
 
-p,
-li {
+.heading {
     color: rgb(237, 215, 250);
+}
+
+li,
+h1,
+h3 {
+    color: aliceblue;
 }
