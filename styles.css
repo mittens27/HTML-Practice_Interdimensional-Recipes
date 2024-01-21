@@ -1,34 +1,63 @@
 * {
     background-color: rgb(70, 52, 104);
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 a {
     color: rgb(211, 232, 250);
-    font-size: 24px;
+    font-size: 16px;
     text-decoration: none;
 }
 
 a:hover {
     color: rgb(168, 248, 148);
-    font-size: 24.5px;
+    font-size: 16.5px;
 }
 
 h1 {
     font-family: "Lucida Console", monospace;
     color: rgb(211, 232, 250);
+    outline-style: ridge;
 }
 
-.navBar {
-    display: inline-block;
-    vertical-align: top;
+.website {
+    display:flex;
 }
 
-.content {
+.website div {
+    color: rgb(211, 232, 250);
+    flex: 1 1 auto;
+}
+
+.website .navBar {
     display: inline-block;
-    vertical-align: top;
-    width: 69%;
+    flex: 1;
+}
+
+h1 {
+    margin: 0px;
+    margin-bottom: 3px;
+}
+
+h2 {
+    margin: 1px;
     height: auto;
-    color: rgb(234, 218, 255);
-    font-family: "Lucida Console", monospace;
+}
+
+ul {
+    margin: 0px;
+    padding-left: 0px;
+    width: 130px;
+    list-style-type: none;
+    outline-style: ridge;
+}
+
+p {
+    margin: 0px;
+}
+
+.website .content {
+    display: inline-block;
+    flex: 6;
+    vertical-align: top;
 }
