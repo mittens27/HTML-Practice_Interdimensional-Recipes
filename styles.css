@@ -14,10 +14,21 @@ a:hover {
     font-size: 16.5px;
 }
 
-h1 {
+.topBar {
     font-family: "Lucida Console", monospace;
     color: rgb(211, 232, 250);
     outline-style: ridge;
+}
+
+h1 {
+    display: inline-block;
+    margin: 0px;
+    vertical-align: top;
+}
+
+.logo {
+    padding-left: 5px;
+    padding-top: 5px;
 }
 
 .website {
@@ -31,12 +42,8 @@ h1 {
 
 .website .navBar {
     display: inline-block;
+    margin-top: 4px;
     flex: 1;
-}
-
-h1 {
-    margin: 0px;
-    margin-bottom: 3px;
 }
 
 h2 {
@@ -46,7 +53,7 @@ h2 {
 
 ul {
     margin: 0px;
-    padding-left: 0px;
+    padding: 10px 5px 200px 10px;
     width: 130px;
     list-style-type: none;
     outline-style: ridge;
@@ -54,10 +61,13 @@ ul {
 
 p {
     margin: 0px;
+    padding-right: 200px;
+    padding-top: 10px;
 }
 
 .website .content {
     display: inline-block;
+    margin-left: 10px;
     flex: 6;
     vertical-align: top;
 }
